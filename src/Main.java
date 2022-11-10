@@ -34,5 +34,22 @@ public class Main {
         byte pupilsEkaterinaAndreevna = 30;
         short paper = 480;
         System.out.println("На каждого ученика рассчитано " + paper / (pupilsLudmilaPavlovna + pupilsAnnaSergeevna + pupilsEkaterinaAndreevna) + " листов бумаги");
+//  Задание 4
+        byte machineProducesIn2Minutes = 16;
+        short machinepPoducesIn20Minutes = (short) (machineProducesIn2Minutes / 2 * 20);
+        short machineProducesIn3Days = (short) (machineProducesIn2Minutes / 2 * 3 * 24);
+        short machineProducesIn1Mounth = (short) (machineProducesIn2Minutes / 2 * 30 *24);
+        System.out.println("За 20 минут машина произвела бутылок " + machinepPoducesIn20Minutes + " штук ");
+        System.out.println("За 3 дня машина произвела бутылок " + machineProducesIn3Days + " штук ");
+        System.out.println("За 1 месяц машина произвела бутылок " + machineProducesIn1Mounth + " штук ");
+//  Задание 5
+        byte allPaint = 120;
+        byte allRoom = (byte) (allPaint / 6);
+        byte whitePaint = (byte) (allRoom * 2);
+        byte brownPaint = (byte) (allRoom * 4);
+        System.out.println("В школе, где " + allRoom + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски");
+
+
+
     }
 }
